@@ -27,6 +27,9 @@ maximum = __Maximum()
 
 
 class __Minimum:
+    """
+    The Minimum which is smaller than everything and not equal to anything (including itself). Almost like -Infinity
+    """
     def __eq__(self, x):
         return False
 
