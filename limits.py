@@ -1,9 +1,10 @@
 """
-This module is a Python replacement for some of C/C++ limits.h contants.
+This module is a Python replacement for some of C/C++ limits.h constants.
 It's useful for some algorithms where you need to find max or min element
-and you cannot get some real element as the starting point or it's inconvenient.
+or check if some value exceeds some limits
+and you cannot get some existing value as the starting point (because it's unknown at the moment) or it's inconvenient.
 
-P.S. For numbers you should better use math.inf and -math.inf
+P.S. For numbers you should probably use math.inf and -math.inf
 """
 
 class __Maximum:
